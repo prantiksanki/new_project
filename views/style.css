@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Macondo&family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=DM+Serif+Text:ital@0;1&family=Macondo&family=New+Amsterdam&display=swap');
+
+*
+{
+    margin : 0 ;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#nav
+{
+    list-style: none;
+    display: flex;
+    background-color: black;
+    margin: 0px;
+    padding: 7px;
+}
+
+#nav li a
+{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 20px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 30px;
+    font-style: normal;
+    padding: 1px;
+}
+  
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: -6px 42px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;    margin-right: 63px;
+}
+
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+
+
+
+
+
+
+
+
+
+
+#title {
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 65px;
+    align-items: center;
+    height: 425px;
+    overflow: hidden; /* Ensures that the video doesn't overflow */
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: 1;  
+    filter: blur(8px);
+}
+
+.main {
+    z-index: 1;
+    padding: 11px;
+    border: 2px solid #000000;
+    background-color: rgb(0 0 0 / 31%);
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    font-size: 40px;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+
+.small
+{
+    z-index: 1;
+    padding: 11px;
+    border: 2px solid #000000;
+    background-color: rgb(0 0 0 / 38%);
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    font-size: 32px;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#Misson
+{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.card1
+{
+    border: solid 2px black;
+    width: 239px;
+    height: 243px;
+     background-color: black;
+    border-radius: 11px 38px;
+    box-shadow: 10px 10px 7px rgb(153, 147, 147);
+
+
+}
+
+.card2
+{
+    border: solid 2px black;
+    width: 239px;
+    height: 243px;
+     background-color: black;
+    border-radius: 11px 38px;
+    box-shadow: 10px 10px 7px rgb(153, 147, 147);
+
+
+}
+
+.card3
+{
+    border: solid 2px black;
+    width: 239px;
+    height: 243px;
+    border-radius: 11px 38px;
+    background-color:black;
+    box-shadow: 10px 10px 7px rgb(153, 147, 147);
+
+
+}
+
+.card4
+{
+    border: solid 2px black;
+    width: 239px;
+    height: 243px;
+    border-radius: 11px 38px;
+    background-color: black ;
+    box-shadow : 10px 10px 7px black;
+}
+ 
+
+#Misson div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    margin: 7px;
+}
+
+#Misson img
+{
+    height: 108px;
+    width: 83px;
+    border: solid white 1px;
+    border-radius: 82px;
+    background-color: white;
+}
+
+#Misson p
+{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#danceStyle {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    margin: 7px;
+}
+
+.style img {
+    height: 190px;
+    width: 190px;
+    border: solid white 1px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.containerDanceStyle {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap; 
+    margin: 28px;
+
+}
+
+.style p
+{
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+#sponsor
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#company
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 50px;
+    padding : 30px
+}
+
+#company li img
+{
+    height: 141px;
+    width: 160px;
+    padding: 0px 24px;
+    margin: 11px 23px;
+}
+
+
+#sponsor h1 
+{
+    font-size: 37px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#copyWrite
+{
+    display: flex;
+    border:solid black 2px ;
+    background-color: black;
+    color: white ;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width:100% ;
+    padding: 2px;
+}

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Macondo&family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=DM+Serif+Text:ital@0;1&family=Macondo&family=New+Amsterdam&display=swap');
+
+*
+{
+    margin : 0 ;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#nav
+{
+    list-style: none;
+    display: flex;
+    background-color: black;
+    margin: 0px;
+    padding: 7px;
+}
+
+#nav li a
+{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 20px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 30px;
+    font-style: normal;
+    padding: 1px;
+}
+  
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: -6px 42px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;    margin-right: 63px;
+}
+
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.myForm
+{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 31px;
+    padding: 20px;
+
+}
+
+#btn
+{
+    border: solid #d23434 2px;
+    background-color: red;
+    height: 26px;
+    width: 54px;
+    border-radius: 5px;
+}
+
+
+.myForm input
+{
+    height: 32px;
+    width: 393px;
+    padding: 17px;
+    margin: 5px;
+}
+
+.myForm textarea
+{
+    height: 32px;
+    width: 393px;
+    padding: 17px;
+    margin: 5px;
+}
+
+h1
+{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-top: 65px;
+    margin-top: -5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#copyWrite
+{
+    display: flex;
+    border: solid black 2px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    padding: 12px;
+    margin-top: 108px;
+}

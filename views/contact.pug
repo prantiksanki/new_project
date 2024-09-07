@@ -1,0 +1,17 @@
+extends template.pug
+
+block scripts
+    script(src = '../Static/index.js')
+block style 
+    style 
+        include styleContact.css 
+
+block content
+    h1 Contact Us
+    form(action= '/contact', method= 'post', class= 'myForm')
+        input(type="text" class="input-name" name="name" placeholder="Name")
+        input(type="phone" class="input-phone" name="phone" placeholder="Phone No")
+        input(type="email" class="input-email" name="email" placeholder="Email Id")
+        textarea(name="message" class="input-message" rows="6" cols="50" placeholder="Message")
+        button(type="submit" id = "btn") Submit
+

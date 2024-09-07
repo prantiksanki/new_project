@@ -1,0 +1,79 @@
+extends template.pug 
+
+block scripts
+  script(src='../Static/index.js')
+
+block style 
+    style 
+        include style.css
+
+block content  
+        section#title
+            video#background-video(autoplay muted loop)
+                  source(src="../Static/bg-video.mp4" type="video/mp4")
+                  | Your browser does not support the video tag.
+            div.main Welcome to ABCD Dance Academy
+            div.small Eat Sleep Dance Repeat
+
+
+
+
+        section#Misson
+            h1 Our Mission
+            div.containerCards
+                 div.card1 
+                     p To inspire a passion for dance in every student.
+                     img(src = "../Static/card1.png")
+                 div.card2 
+                     p To provide high-quality dance education in a nurturing environment.
+                     img(src = "../Static/card-2.png")
+                 div.card3 
+                     p To encourage creativity, self-expression, and personal growth through dance.
+                     img(src = "../Static/card3.png")
+                 div.card4 
+                     p To promote discipline, teamwork, and a positive attitude in all aspects of life.
+                     img(src = "../Static/card4.png")
+
+
+            
+
+
+
+
+
+        section#danceStyle 
+            h1 Dance Style 
+            div.containerDanceStyle 
+                div.style  
+                    img(src = "../Static/hip-hop.jpg" alt="Hip-Hop")
+                    p Hip-Hop
+                div.style  
+                    img(src = "../Static/contemporary.jpg" alt="Contemporary")
+                    p Contemporary
+                div.style  
+                    img(src = "../Static/yoga.jpg" alt = "Yoga")
+                    p Yoga
+                div.style  
+                    img(src = "../Static/zumba-fitness.png" alt ="Zumba Fitness")
+                    p Zumba Fitness
+
+
+
+            
+
+
+
+
+        section#sponsor  
+                h1 Our Sponsors
+                ul#company 
+                    li 
+                        img(src="../Static/tvf.jpg" alt="TVF Logo")
+                    li 
+                        img(src = "../Static/sony-music.jpeg" alt = "Sony Music Company")
+                    li 
+                        img(src = "../Static/tsere.jpeg" alt = "Tseries") 
+                    li 
+                        img(src ="../Static/spootify.png"  alt = "Spootify")
+
+  
